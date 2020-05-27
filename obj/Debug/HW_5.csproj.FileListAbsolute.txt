@@ -1,0 +1,7 @@
+C:\Users\acer\source\repos\HW_5\HW_5\bin\Debug\HW_5.exe.config
+C:\Users\acer\source\repos\HW_5\HW_5\bin\Debug\HW_5.exe
+C:\Users\acer\source\repos\HW_5\HW_5\bin\Debug\HW_5.pdb
+C:\Users\acer\source\repos\HW_5\HW_5\obj\Debug\HW_5.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\HW_5\HW_5\obj\Debug\HW_5.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\HW_5\HW_5\obj\Debug\HW_5.exe
+C:\Users\acer\source\repos\HW_5\HW_5\obj\Debug\HW_5.pdb
