@@ -7,36 +7,36 @@ namespace HW_5
 {
     class Program
     {
-        static void PrintCollection(List<IDeveloper> workers)
-        {
-            foreach (var item in workers)
-            {
-                Console.WriteLine(item);
-            }
-        }
+        
         static void Main(string[] args)
         {
-            List<IDeveloper> workers = new List<IDeveloper>();
+            IDeveloper[] workers = new IDeveloper[3];
 
             Programmer Allan = new Programmer("Java");
             Builder Tom = new Builder("hammer");
             Programmer Lisa = new Programmer("C#");
-            /////
+            
 
-            workers.Add(Allan);
-            workers.Add(Tom);
-            workers.Add(Lisa);
+            workers[0]=Allan;
+            workers[1]=Tom;
+            workers[2]=Lisa;
 
-            PrintCollection(workers);
+           
             foreach( var a in workers)
             {
                 a.Create();
                 a.Destroy();
                 Console.WriteLine(a.Tool);
             }
-
             
+            //sort by tool
+            Array.Sort(workers);
 
+            Console.WriteLine();
+            foreach(var a in workers)
+            {
+                Console.WriteLine(a.Tool);
+            }
 
         }
     }

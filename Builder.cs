@@ -27,6 +27,14 @@ namespace HW_5
         {
             Console.WriteLine("Builder with {0} destroy", tool);
         }
+        public int CompareTo(object o)
+        {
+            Programmer p = o as Programmer;
+            if (p != null)
+                return this.Tool.CompareTo(p.Tool);
+            else
+                throw new Exception("Error");
+        }
 
         
     }
